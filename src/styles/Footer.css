@@ -1,0 +1,21 @@
+.footer{
+    width: 100%;
+    /* height: 180px; */
+    background-color: #212121;
+    color: #fff;
+}
+.socialMediaIcons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+.socialMediaIcons svg{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.footer p{
+    text-align: center;
+    margin:0;
+    padding: 10px;
+}

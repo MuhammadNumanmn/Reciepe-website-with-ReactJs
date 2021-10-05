@@ -1,0 +1,40 @@
+.home{
+    background-image: url('../assets/pizza.jpeg');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 3%;
+    background-position: center;
+    background-size: cover;
+}
+.home h2{
+    font-size: 3.6rem;
+    padding-left: 10px 0;
+    margin: 0;
+}
+.home p{
+    font-size: 1.2rem;
+    padding: 10px 0;
+    margin: 0;
+}
+.home button{
+    background-color: #212121;
+    padding: 12px 25px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.9ms ease-in-out;
+}
+.home a{
+    text-decoration: none;
+    color: snow;
+    font-size: 1.2rem;
+}
+.home button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+
+}

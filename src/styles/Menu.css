@@ -1,0 +1,19 @@
+.menu{
+    width: 100%;
+}
+.menu h1{
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px;
+    background-color: #212121;
+    color: snow;
+    text-align: center;
+}
+.menuList{
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}

@@ -1,0 +1,33 @@
+.about{
+    width: 100%;
+}
+.aboutTop{
+    background-image: url('../assets/multiplePizzas.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+}
+.aboutBottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10%;
+    text-align: justify;
+}
+.aboutBottom h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    background-color: #212121;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: snow;
+    border-radius: 4px;
+}
+.aboutBottom p{
+    padding: 10px 0;
+    line-height: 25px;
+    margin-top: 20px;
+}
